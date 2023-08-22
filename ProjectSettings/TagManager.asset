@@ -11,6 +11,11 @@ TagManager:
   - 
   - Water
   - UI
+  - whatIsPlayer
+  - 
+  - 
+  - whatIsWall
+  - whatIsGround
   - 
   - 
   - 
@@ -20,12 +25,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - postProcessing
   - 
   - 
   - 
