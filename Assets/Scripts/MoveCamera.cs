@@ -12,7 +12,7 @@ public class MoveCamera : MonoBehaviour
         if (cameraPosition != null)
         {
             // Mantener la posición del objeto pero aplicar la rotación de la cámara
-            transform.position = new Vector3(cameraPosition.position.x, transform.position.y, cameraPosition.position.z);
+            transform.position = new Vector3(cameraPosition.position.x, cameraPosition.position.y, cameraPosition.position.z);
             transform.rotation = cameraPosition.rotation;
         }
         else
