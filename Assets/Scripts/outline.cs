@@ -26,4 +26,9 @@ public class outline : MonoBehaviour
             resaltado.SetFloat("_Scaler", 0f);
         }
     }
+
+    /*
+     * posible mejora usar triggers colliders
+     
+     */
 }
