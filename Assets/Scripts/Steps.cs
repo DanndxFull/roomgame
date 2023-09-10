@@ -66,4 +66,12 @@ public class Steps : MonoBehaviour
     {
         footstep.SetActive(false);
     }
+
+    /*
+     * mejorar la relacion de este script con el de movimiento haciendo que no validemos la ejecucion del sonido
+     * desde este script sino desde el de movimiento, es script solo se debe encargar de ejectura sonidos
+     * 
+     * utilizar los metodos provistos por las clases de audiosource
+     * 
+     */
 }
