@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class InteraccionCamara : MonoBehaviour
 {
-    private Transform camara;
+    [SerializeField] private Transform camara;
     public float rayDistance;
-    void Start()
-    {
-        camara = transform.Find("Camera");
-    }
 
     void Update()
     {
