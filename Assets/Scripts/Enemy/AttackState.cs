@@ -12,7 +12,11 @@ public class AttackState : State
 
     public override State Tick(EnemyManager enemyManager)
     {
-        //return iDLEState;
+        Debug.Log("Attacking State");
+        if (enemyManager.distanceFromCurrentTarget >= 5)
+        {
+            return iDLEState;
+        }
         return this;
     }
 }

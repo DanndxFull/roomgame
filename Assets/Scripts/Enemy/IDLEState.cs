@@ -81,6 +81,10 @@ public class IDLEState : State
                     }
                 }
             }
+            else
+            {
+                Debug.Log("No hay players");
+            }
         }
     }
 }

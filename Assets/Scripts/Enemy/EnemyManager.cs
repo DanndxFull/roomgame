@@ -9,7 +9,7 @@ public class EnemyManager : MonoBehaviour
     public IDLEState startingState;
 
     //the state this character is currently in
-    private State currentState;
+    public State currentState;
 
     [Header("Current Target")]
     public PlayerManager currentTarget;
@@ -29,9 +29,9 @@ public class EnemyManager : MonoBehaviour
 
     private void Update()
     {
-        if(currentState != null)
+        if(currentState != null && currentTarget!=null)
         {
-            distanceFromCurrentTarget = Vector3.Distance(currentState.transform.position, transform.position);
+            distanceFromCurrentTarget = Vector3.Distance(currentTarget.transform.position, transform.position);
         }
     }
 
